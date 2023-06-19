@@ -9,7 +9,16 @@
 * Scikit-learn
 * Seaborn
 * Matplotlib
-* ...
+* Pandas
+* XGBoost
+* Numpy
+* Time
+* Missingno
+* Joblib
+* Plotly
+* Glob
+* Requests
+* Kaggle
 
 ## CRISP-DM 📝
 | Fase                             | Descripción                                                                                                                                                 |
@@ -23,9 +32,9 @@
 
 ## Resultados 📊
 ### Fase 1: Comprensión del negocio
-- Objetivo: 
-- Criterios de éxito:
-- Reuqisitos, supuestos y limitantes:
+- Objetivo
+- Criterios de éxito
+- Requisitos, supuestos y limitantes
 
 ### Fase 2: Comprensión de los datos 💿
 | Fuente | Naturaleza | Descripción | Estructura                                                                                                                                                                                                                                                                                                                                                           |
@@ -67,9 +76,9 @@ TABLA CON LAS CONCLUSIONES DE CADA dataset
 | **Football Manager**       | A           |
 
 ### Fase 6: Implantación ☑️
-- Monitorización:
-- Conclusiones:
-- Líneas futuras:
+- Monitorización
+- Conclusiones
+- Líneas futuras
 
 ## Bibliography 📖
 
