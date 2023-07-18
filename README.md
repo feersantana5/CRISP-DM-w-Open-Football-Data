@@ -46,39 +46,31 @@
 | [Football Manager](https://www.kaggle.com/datasets/platinum22/foot-ball-manager-2023-dataset)                                                                                       | Base de datos abierta | Características de los jugadores Videojuego FM 2023        | **FM 2023.csv**: Archivo que almacena el detalle de los juadores de la temporada 2022-2023.                                                                                                                                                                                                                                                                          |
 
 ### Fase 3: Preparación de los datos ⚒️
-Decir que se han limpiado, tratado, codificado
-TABLA CON LAS CONCLUSIONES DE CADA dataset
-
-| Dataset                    | Descripción |
-|----------------------------|-------------|
-| **StatsBomb**              | A           |
-| **SOFIFA**                 | A           |
-| **International Football** | A           |
-| **Transfers**              | A           |
-| **Football Manager**       | A           |
+Los datos se han:
+- Seleccionado
+- Limpiado
+- Estructurados
+- Integrados
+- Formateados
 
 ### Fase 4: Modelado 🗂️
-| Dataset                    | Modelo | Descripción |
-|----------------------------|--------|-------------|
-| **StatsBomb**              | -      | A           |
-| **SOFIFA**                 | -      | A           |
-| **International Football** | -      | A           |
-| **Transfers**              | -      | A           |
-| **Football Manager**       | -      | A           |
+| Dataset                    | Descripción                                             | Modelo                                                                                                                                   |
+|----------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| **StatsBomb**              | Búsqueda de la probabilidad de victoria de cada jugador | Clasificación multiclase<br>• Características del jugador (nombre, frecuencia de partidos, equipo, nacionalidad)<br>• resultado_partido  |
+| **SOFIFA**                 | Búsqueda del jugador con mayor rendimiento              | Regresión<br>• 47 Características del jugador (físicas, rendimiento, evaluación, económicas)<br>• potencial_jugador                      |
+| **International Football** | Búsqueda de la probabilidad de goles de cada jugador    | Regresión<br>• Características del partido (torneo, minuto, penalty, equipo)<br>• goles_anotados                                         |
+| **Football Manager**       | Búsqueda del jugador con mayor rendimiento              | Regresión<br>• 70 Características del jugador (físicas, rendimiento, evaluación, económicas)<br>• habilidad_actual y habilidad_potencial |
 
 ### Fase 5: Evaluación 📊
-| Dataset                    | Descripción |
-|----------------------------|-------------|
-| **StatsBomb**              | A           |
-| **SOFIFA**                 | A           |
-| **International Football** | A           |
-| **Transfers**              | A           |
-| **Football Manager**       | A           |
+| Dataset                    | Resultado |
+|----------------------------|-----------|
+| **StatsBomb**              | 66 %      |
+| **SOFIFA**                 | 99 %      |
+| **International Football** | 50 %      |
+| **Football Manager**       | 100 %     |
 
 ### Fase 6: Implantación ☑️
 - Monitorización
 - Conclusiones
 - Líneas futuras
-
-## Bibliography 📖
 
